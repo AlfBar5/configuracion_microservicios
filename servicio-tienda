@@ -8,6 +8,6 @@ server:
   port: 9000
 eureka:
   client:
-    register-with-eureka: false
+    register-with-eureka: true
     service-url:
       default-zone: http://localhost:8761/eureka
