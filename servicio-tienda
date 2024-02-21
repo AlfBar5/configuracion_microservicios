@@ -1,0 +1,13 @@
+app:
+  client_id: validadorlibreria
+  grant_type: password
+  password: adminlibreria
+  urlAuth: http://localhost:8080/realms/LibreriaDosRealm/protocol/openid-connect/token
+  username: adminlibreria
+server:
+  port: 9000
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      default-zone: http://localhost:8761/eureka
