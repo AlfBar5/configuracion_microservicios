@@ -10,6 +10,6 @@ eureka:
   instance:
     hostname: ${HOST}
   client:
-    register-with-eureka: true
+    register-with-eureka: false
     service-url:
       default-zone: http://${HOST_EUREKA}:8761/eureka
