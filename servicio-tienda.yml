@@ -11,5 +11,5 @@ eureka:
     hostname: ${HOST}
   client:
     register-with-eureka: false
-    service-url:
+     serviceUrl:
       default-zone: http://${HOST_EUREKA}:8761/eureka
